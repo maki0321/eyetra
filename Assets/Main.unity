@@ -184,6 +184,7 @@ GameObject:
   - 114: {fileID: 268285556}
   - 114: {fileID: 268285555}
   - 114: {fileID: 268285558}
+  - 114: {fileID: 268285559}
   m_Layer: 5
   m_Name: Button1
   m_TagString: Untagged
@@ -260,6 +261,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 268285559}
+        m_MethodName: OnGUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &268285556
@@ -304,6 +316,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: beea45c91eed54c779a454f60310c23d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &268285559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268285553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf13d6cf48614353997dd789f7abf10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &467153818

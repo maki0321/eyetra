@@ -1,15 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class Push1Script : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	public void OnGUI () {
+		// ラベルを表示する
+		GUI.Label(new Rect(20, 20, 100, 50), "OK");
 	}
 }
