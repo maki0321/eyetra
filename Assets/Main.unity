@@ -134,7 +134,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.055, g: 0.26420555, b: 0.978, a: 0.019607844}
+  m_BackGroundColor: {r: 0.055, g: 0.978, b: 0.941, a: 0.019607844}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -184,6 +184,7 @@ GameObject:
   - 114: {fileID: 268285556}
   - 114: {fileID: 268285555}
   - 114: {fileID: 268285558}
+  - 114: {fileID: 268285559}
   m_Layer: 5
   m_Name: Button1
   m_TagString: Untagged
@@ -260,6 +261,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 268285559}
+        m_MethodName: OnGUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &268285556
@@ -306,6 +318,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beea45c91eed54c779a454f60310c23d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &268285559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268285553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf13d6cf48614353997dd789f7abf10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &319589807
 Prefab:
   m_ObjectHideFlags: 0
@@ -344,6 +367,14 @@ Prefab:
     - target: {fileID: 400660, guid: cab6ee9f0b32047e3879ddba23f5867e, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 21255484, guid: cab6ee9f0b32047e3879ddba23f5867e, type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21255484, guid: cab6ee9f0b32047e3879ddba23f5867e, type: 2}
+      propertyPath: m_SortingLayerID
+      value: 39322745
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cab6ee9f0b32047e3879ddba23f5867e, type: 2}
@@ -438,7 +469,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 72316603
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b9c51b98a050b4faabcfb684032edfbc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -451,7 +482,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 764496845}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: -0.15, z: 0}
+  m_LocalPosition: {x: 0, y: -11.1, z: 0}
   m_LocalScale: {x: 1.9179436, y: 1.8853925, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
