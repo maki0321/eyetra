@@ -6,8 +6,12 @@ public class TrainScript : MonoBehaviour {
 	
 	public GameObject[] Train;
 
+
 	void Start(){
-	Instantiate(Train[Random.Range(0,Train.Length)],transform.position,transform.rotation);
+		//int number = Train [Random.Range (0, Train.Length)];
+	Instantiate(/*number*/Train[Random.Range(0,Train.Length)],transform.position,transform.rotation);
+		int number = Train.Length;
+
 	/*
 	public static T Random<T>( params T[] values )
 	{
