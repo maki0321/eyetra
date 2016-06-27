@@ -350,13 +350,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 465376366}
-        m_MethodName: Answer
-        m_Mode: 1
+      - m_Target: {fileID: 467153820}
+        m_MethodName: button
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -407,6 +407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ceba1e7e40d4e1bad0aa298abdbae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gb: {fileID: 0}
   buttonNumber: 8
 --- !u!1 &467153818
 GameObject:
@@ -458,6 +459,7 @@ MonoBehaviour:
   - {fileID: 182588, guid: bb5604ae2156d4b3881e082637fdf889, type: 2}
   - {fileID: 175656, guid: 1e5f214c2b0d3465caf08072682209b6, type: 2}
   - {fileID: 197896, guid: 29c02647c6ded4ef78957c51338d93f6, type: 2}
+  number: 0
 --- !u!1 &509659962
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,13 +537,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 509659967}
-        m_MethodName: Answer
-        m_Mode: 1
+      - m_Target: {fileID: 467153820}
+        m_MethodName: button
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -592,6 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ceba1e7e40d4e1bad0aa298abdbae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gb: {fileID: 0}
   buttonNumber: 9
 --- !u!1 &527801808
 GameObject:
@@ -891,7 +894,6 @@ GameObject:
   - 222: {fileID: 1081444606}
   - 114: {fileID: 1081444605}
   - 114: {fileID: 1081444604}
-  - 114: {fileID: 1081444607}
   m_Layer: 5
   m_Name: Button3
   m_TagString: Untagged
@@ -957,13 +959,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1081444607}
-        m_MethodName: Answer
-        m_Mode: 1
+      - m_Target: {fileID: 467153820}
+        m_MethodName: button
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1003,18 +1005,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1081444602}
---- !u!114 &1081444607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1081444602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ceba1e7e40d4e1bad0aa298abdbae4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonNumber: 3
 --- !u!1 &1085844776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,13 +1082,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1085844781}
-        m_MethodName: Answer
-        m_Mode: 1
+      - m_Target: {fileID: 467153820}
+        m_MethodName: button
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1149,6 +1139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ceba1e7e40d4e1bad0aa298abdbae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gb: {fileID: 0}
   buttonNumber: 7
 --- !u!1 &1175014438
 GameObject:
@@ -1235,7 +1226,6 @@ GameObject:
   - 222: {fileID: 1236018707}
   - 114: {fileID: 1236018706}
   - 114: {fileID: 1236018705}
-  - 114: {fileID: 1236018708}
   m_Layer: 5
   m_Name: Button1
   m_TagString: Untagged
@@ -1301,9 +1291,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1236018708}
-        m_MethodName: Answer
-        m_Mode: 1
+      - m_Target: {fileID: 467153820}
+        m_MethodName: button
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1347,18 +1337,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1236018703}
---- !u!114 &1236018708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1236018703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ceba1e7e40d4e1bad0aa298abdbae4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonNumber: 1
 --- !u!1 &1313408628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,13 +1698,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1679553335}
-        m_MethodName: Answer
-        m_Mode: 1
+      - m_Target: {fileID: 467153820}
+        m_MethodName: button
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1777,6 +1755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ceba1e7e40d4e1bad0aa298abdbae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gb: {fileID: 0}
   buttonNumber: 4
 --- !u!1 &1821957131
 GameObject:
@@ -1855,13 +1834,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821957136}
-        m_MethodName: Answer
-        m_Mode: 1
+      - m_Target: {fileID: 467153820}
+        m_MethodName: button
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1912,6 +1891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ceba1e7e40d4e1bad0aa298abdbae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gb: {fileID: 467153818}
   buttonNumber: 6
 --- !u!1 &2025176262
 GameObject:
@@ -2074,7 +2054,6 @@ GameObject:
   - 222: {fileID: 2100344250}
   - 114: {fileID: 2100344249}
   - 114: {fileID: 2100344248}
-  - 114: {fileID: 2100344252}
   m_Layer: 5
   m_Name: Button2
   m_TagString: Untagged
@@ -2140,13 +2119,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2100344252}
-        m_MethodName: Answer
-        m_Mode: 1
+      - m_Target: {fileID: 467153820}
+        m_MethodName: button
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2186,18 +2165,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2100344246}
---- !u!114 &2100344252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2100344246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ceba1e7e40d4e1bad0aa298abdbae4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonNumber: 2
 --- !u!1 &2103549717
 GameObject:
   m_ObjectHideFlags: 0
@@ -2275,13 +2242,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2103549722}
-        m_MethodName: Answer
-        m_Mode: 1
+      - m_Target: {fileID: 467153820}
+        m_MethodName: button
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2332,4 +2299,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ceba1e7e40d4e1bad0aa298abdbae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gb: {fileID: 0}
   buttonNumber: 5
