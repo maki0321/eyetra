@@ -41,4 +41,10 @@ public class TrainScript : MonoBehaviour
 			messagetext.text="不正解";
 		}
 	}
+	public void train()
+	{
+		number = Random.Range (0, Train.Length);
+		Instantiate (Train [number], transform.position, transform.rotation);
+
+	}
 }
