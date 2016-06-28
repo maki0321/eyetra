@@ -2,6 +2,7 @@
 using System.Collections;
 using Random = UnityEngine.Random;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TrainScript : MonoBehaviour
 {
@@ -9,9 +10,11 @@ public class TrainScript : MonoBehaviour
 	public GameObject[] Train;
 	public int number;
 	public Text messagetext;
+	public int traincount;
 
 	void Start ()
 	{
+		traincount = 5;
 		number = Random.Range (0, Train.Length);
 		Instantiate (Train [number], transform.position, transform.rotation);
 
@@ -36,9 +39,15 @@ public class TrainScript : MonoBehaviour
 			messagetext.text="正解";
 
 
+
 		} else {
 			Debug.Log ("不正解");
 			messagetext.text="不正解";
+		}
+		traincount--;
+		if (traincount == 0) {
+			SceneManager.LoadScene("finish");
+			
 		}
 	}
 	public void train()
@@ -47,4 +56,6 @@ public class TrainScript : MonoBehaviour
 		Instantiate (Train [number], transform.position, transform.rotation);
 
 	}
+
+
 }
